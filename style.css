@@ -1,0 +1,166 @@
+/*
+Theme Name: BDN Budget
+*/
+
+body {
+	font-family: sans-serif;
+	margin: 0;
+}
+header, #budget-wrapper {
+	margin: 5px 10px 0 10px;
+	background-color: #fff;
+}
+table td {
+	border-top: 1px solid #ccc;
+	margin: 0;
+	padding: 2px 0;
+}
+.lastmodified_name {
+	color: #5d5d5d;
+	font-size: .7em;
+}
+.folder {
+	font-size: .7em;
+	color: #5d5d5d;
+}
+.folder_published {
+	color: #ff0000;
+}
+.status {
+	font-size: .8em;
+	color: #5d5d5d;
+}
+.status_published {
+	color: green;
+	font-weight: bold;
+}
+.past_due {
+	color: red;
+}
+.bdn-budget-item, .bdn-file-item, .bdn-organize-item {
+	display: none;
+}
+.item-form-wrapper {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 99%;
+	padding: 0;
+	margin: 0;
+}
+.background {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	opacity: .7;
+}
+.createbox {
+	position: relative;
+	top: 100px;
+	width: 400px;
+	background-color: #fff;
+	margin: 0 auto;
+	opacity: 1;
+	background-color: #fff;
+	padding: 10px;
+	border-radius: 7px;
+}
+
+.createbox input[type="text"],
+.createbox textarea,
+.createbox select {
+	background: #f9f9f9;
+	border: 1px solid #ccc;
+	box-shadow: inset 1px 1px 1px rgba(0,0,0,0.1);
+	-moz-box-shadow: inset 1px 1px 1px rgba(0,0,0,0.1);
+	-webkit-box-shadow: inset 1px 1px 1px rgba(0,0,0,0.1);
+	padding: 4px;
+	color: #333;
+	font-size: 16px;
+	line-height: 24px;
+	width: 100%;
+	margin: 5px 0;
+}
+
+#context-menu {
+    z-index:1000;
+    position: absolute;
+    background-color:#fff;
+    border: 1px solid black;
+	padding: 5px 0;
+    -webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    transition: opacity .218s;
+    -webkit-transition: opacity .218s;
+	-moz-transition: opacity .218s;
+	-o-transition: opacity .218s;
+	font-size: 13px;
+}
+#context-menu .menu-item {
+	padding: 2px 25px;
+}
+
+.budget-top-button {
+	float: left;
+	margin-top: 7px;
+}
+
+.budget-top-button a {
+	font-size: 12px;
+	color: #fff;
+	background-color: #ff0000;
+	font-weight: 800;
+	font-family: arial;
+	padding: 5px 10px;
+	border-radius: 5px;
+	margin: 0 0 0 10px;
+}
+
+.file-folders ul {
+	padding-left: 20px;
+}
+
+.budget table {
+	border-collapse : collapse;
+	width : 100%;
+	font-size : 16px;
+	font-family : Arial;
+	margin-bottom : 10px;
+	padding : 0;
+	margin-top : 0;
+}
+.budget th {
+	background : #000;
+	color : #fff;
+	font-weight : bold;
+	padding : 5px;
+	text-align : left;
+	border-right : 1px solid #fff;
+	margin : 0;
+}
+.budget td {
+	padding : 5px;
+	border-bottom : 1px solid #000;
+	vertical-align : top;
+	margin : 0;
+}
+.budget td * {
+	padding : 5px;
+}
+.budget tr.alt td {
+	background : #ecf6fc;
+}
+
+.budget tr.noborder td {
+	border: 0px solid #fff;
+}
+
+.budget thead {
+	background : #000;
+	color : #fff;
+	border : none;
+}
